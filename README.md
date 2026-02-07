@@ -1,4 +1,4 @@
-# Beauty Salon | PHP App
+# Beauty Salon | Vanilla PHP App
 
 ![Beauty Salon_1](./assets/screenshots/screenshot_1.jpg)
 ![Beauty Salon_2](./assets/screenshots/screenshot_2.jpg)
