@@ -12,8 +12,6 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
 
-## Frontend
-
 ```sh
 npm install
 ```
@@ -28,12 +26,6 @@ npm run dev
 
 ```sh
 npm run build
-```
-
-## Backend
-
-```bash
-php -S localhost:8000
 ```
 
 ---
