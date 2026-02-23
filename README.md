@@ -15,19 +15,19 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 ## Frontend
 
 ```sh
-npm install
+pnpm install
 ```
 
 ### Compile and Hot-Reload for Development
 
 ```sh
-npm run dev
+pnpm run dev
 ```
 
 ### Compile and Minify for Production
 
 ```sh
-npm run build
+pnpm run build
 ```
 
 ## Backend
