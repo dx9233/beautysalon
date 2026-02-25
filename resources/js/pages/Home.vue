@@ -5,6 +5,12 @@ import Services from "@/components/Services.vue";
 import Testimonials from "@/components/Testimonials.vue";
 import Subscribe from "@/components/Subscribe.vue";
 import HeroServices from "@/components/HeroServices.vue";
+
+import MainLayout from '@/Layouts/MainLayout.vue'
+
+defineOptions({
+  layout: MainLayout
+})
 </script>
 
 <template>

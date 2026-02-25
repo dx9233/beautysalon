@@ -2,7 +2,7 @@
   <header>
     <div class="logo">
       <router-link to="/">
-        <img src="../../src/assets/logo.svg" alt="Stylicle Logo" />
+        <img src="/assets/svg/logo.svg" alt="Stylicle Logo" />
       </router-link>
     </div>
 

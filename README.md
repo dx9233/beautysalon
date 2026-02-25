@@ -21,7 +21,7 @@ npm install
 ### Dev Server
 
 ```sh
-npm run dev
+composer run dev
 ```
 
 ### Build
