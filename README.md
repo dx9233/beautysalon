@@ -1,4 +1,4 @@
-# Beauty Salon | Vue App
+# Beauty Salon | Laravel Vue App
 
 ![Beauty Salon_1](./screenshots/screenshot_1.jpg)
 
@@ -12,28 +12,22 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
 
-## Frontend
+## Install
 
 ```sh
-pnpm install
+npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Dev Server
 
 ```sh
-pnpm run dev
+npm run dev
 ```
 
-### Compile and Minify for Production
+### Build
 
 ```sh
-pnpm run build
-```
-
-## Backend
-
-```bash
-php -S localhost:8000
+npm run build
 ```
 
 ---
@@ -42,6 +36,7 @@ php -S localhost:8000
 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="40" height="40" alt="Vue" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="40" height="40" alt="Laravel" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="40" height="40" alt="PHP" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="40" height="40" alt="MySql" />
 </p>

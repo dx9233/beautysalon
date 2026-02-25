@@ -1,101 +1,28 @@
-# ====================================
-# Build / output folders
-# ====================================
-# JS / TS
-dist/
-.build/
-.next/
-out/
-.astro/
-.expo/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-build/
-develop-eggs/
-.eggs/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Go
-bin/
-pkg/
-*.exe
-*.test
-*.out
-
-# PHP
-vendor/
-composer.lock
-
-# ====================================
-# Dependencies
-# ====================================
-# Node
-node_modules/
-.pnp.*
-.yarn-integrity
-
-# Python
-.env/
-*.env
-
-# ====================================
-# Logs
-# ====================================
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-*.log
-
-# ====================================
-# IDE / Editor / OS
-# ====================================
-# macOS
+/.phpunit.cache
+/bootstrap/ssr
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/resources/js/actions
+/resources/js/routes
+/resources/js/wayfinder
+/vendor
 .DS_Store
-
-# VSCode
-.vscode/
-
-# JetBrains
-.idea/
-
-# Turborepo
-.turbo/
-.turbo/cache/
-
-# Misc
-*.swp
-*.swo
-*.sublime-workspace
-*.sublime-project
-*.tmp
-
-# large assets
-*.zip
-*.mp4
-*.psd
-*.wav
-
-# Obsidian
-
-# Obsidian system folder (index, plugins, settings)
-.obsidian/
-
-# OS system files
-.DS_Store
-Thumbs.db
-
-# Editor files
-*.swp
-*.tmp
-*.bak
-
-# Cache and temporary files
-.cache/
-.cache-obsidian/
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/auth.json
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed

@@ -1,21 +1,11 @@
-# Hide all from build and vendor
-# build/** linguist-vendored
-# vendor/** linguist-vendored
+* text=auto eol=lf
 
-# Hide generated files
-# *.min.js linguist-generated
-# *.gen.* linguist-generated
+*.blade.php diff=html
+*.css diff=css
+*.html diff=html
+*.md diff=markdown
+*.php diff=php
 
-# Hide specific languages
-*.html linguist-vendored
-*.css linguist-vendored
-*.scss linguist-vendored
-# *.astro linguist-vendored
-*.mdx linguist-vendored
-# *.py linguist-vendored
-# *.php linguist-vendored
-# *.go linguist-vendored
-# *.vue linguist-vendored
-# *.svelte linguist-vendored
-*.pug linguist-vendored
-*.dockerfile linguist-vendored
+CHANGELOG.md export-ignore
+README.md export-ignore
+.github/workflows/browser-tests.yml export-ignore

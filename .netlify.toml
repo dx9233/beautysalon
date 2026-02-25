@@ -1,4 +1,0 @@
-[[build]]
-  base = "apps/codebase"
-  command = "pnpm turbo run build --filter=frontend"
-  publish = "frontend/dist"
