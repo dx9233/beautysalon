@@ -1,4 +1,4 @@
-# Astro Projects Monorepo
+# Beauty Salon Monorepo | Laravel + Vue
 
 ---
 
