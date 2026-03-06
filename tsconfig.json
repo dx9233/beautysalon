@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@crash/ui/*": ["packages/ui/src/*"],
+      "@crash/utils/*": ["packages/utils/src/*"]
+    }
+  },
+  "files": [],
+  "references": [
+    { "path": "packages/ui" },
+    { "path": "packages/utils" },
+    { "path": "web/astroblog" },
+    { "path": "web/astroblogportfolio" },
+    { "path": "web/luxurycar-react" },
+    { "path": "web/multilink-astro" },
+    { "path": "web/musicartist-react" },
+    { "path": "web/strikethehub" },
+    { "path": "web/svelte-app" },
+    { "path": "web/vue-app" },
+    { "path": "backend/js/express-api" },
+    { "path": "backend/js/fastify-api" },
+    { "path": "backend/js/server-app-ejs" },
+    { "path": "mobile/carrent-app" },
+    { "path": "mobile/new-app" },
+    { "path": "personal/exhum0" },
+    { "path": "personal/mainportfolio" },
+    { "path": "personal/nextjs-portfolio" },
+    { "path": "personal/react-portfolio" },
+    { "path": "personal/codebase" },
+    { "path": "fullstack/apps/laravel-app" }
+  ]
+}

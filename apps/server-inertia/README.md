@@ -1,44 +1,33 @@
-# Astro Projects Monorepo
+# Beauty Salon | Laravel Vue App
 
----
+![Beauty Salon_1](./screenshots/screenshot_1.jpg)
 
-## Project Structure
+[Other Screenhots](./screenshots/)
 
-```
-beautysalon/
-  apps/
-    client/ # Vue Frontend
-    serveer-inertia/ # Laravel + Vue
-  legacy/ # Vanilla PHP
-  package.json
-  pnpm-workspace.yaml
-  turbo.json
-  tsconfig.json
-  pnpm-lock.yaml
-```
+[Design](https://www.figma.com/design/yUBTU3YSEETOeeHubgtoBS/%D1%81%D0%B0%D0%BB%D0%BE%D0%BD-%D0%BA%D1%80%D0%B0%D1%81%D0%BE%D1%82%D1%8B?node-id=1-656&t=l98qR9PPTmpH9UVy-1)
 
----
+## Customize configuration
 
-## Running and building locally
+See [Vite Configuration Reference](https://vite.dev/config/).
 
-### All projects at once
+## Project Setup
 
-```bash
-pnpm dev        # runs all dev servers in parallel
-pnpm build      # builds everything
+## Install
+
+```sh
+npm install
 ```
 
-### One project
+### Dev Server
 
-```bash
-pnpm turbo run dev --filter=astro-app
-pnpm turbo run build --filter=next-app
+```sh
+composer run dev
 ```
 
-Check the list of available projects:
+### Build
 
-```bash
-pnpm list -r
+```sh
+npm run build
 ```
 
 ---
